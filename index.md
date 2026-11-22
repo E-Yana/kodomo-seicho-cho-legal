@@ -5,6 +5,7 @@
 - [プライバシーポリシー](privacy_policy.html)
 - [特定商取引法に基づく表記](tokushoho.html)
 - [子どもの平均身長（5〜17歳・男女別）](heikin-shincho.html)
+- [赤ちゃんの身長・体重の目安（0〜6歳・男女別）](heikin-shincho-akachan.html)
 
 ## お問い合わせ
 
