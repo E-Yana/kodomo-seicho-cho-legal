@@ -4,6 +4,7 @@
 
 - [プライバシーポリシー](privacy_policy.html)
 - [特定商取引法に基づく表記](tokushoho.html)
+- [子どもの平均身長（5〜17歳・男女別）](heikin-shincho.html)
 
 ## お問い合わせ
 
