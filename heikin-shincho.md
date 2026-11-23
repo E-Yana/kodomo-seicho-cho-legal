@@ -79,7 +79,7 @@ title: 子どもの平均身長（5〜17歳・男女別）｜同じ年の子と�
 - 広告はありません
 - 無料版はお子さん2人まで・1人につき記録5件まで。それ以上は有料版（買い切り・追加の費用なし）
 
-[App Storeで見る](https://apps.apple.com/app/apple-store/id6816525756?pt=129518209&ct=kaisetsu01&mt=8)
+[App Storeで見る](https://apps.apple.com/jp/app/apple-store/id6816525756?pt=129518209&ct=kaisetsu01&mt=8)
 
 ---
 

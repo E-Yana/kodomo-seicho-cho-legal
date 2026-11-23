@@ -75,7 +75,7 @@ title: 赤ちゃんの身長・体重の目安（0〜6歳・男女別）
 - 広告はありません
 - 無料版はお子さん2人まで・1人につき記録5件まで。それ以上は有料版（買い切り・追加の費用なし）
 
-[App Storeで見る](https://apps.apple.com/app/apple-store/id6816525756?pt=129518209&ct=kaisetsu02&mt=8)
+[App Storeで見る](https://apps.apple.com/jp/app/apple-store/id6816525756?pt=129518209&ct=kaisetsu02&mt=8)
 
 ---
 
