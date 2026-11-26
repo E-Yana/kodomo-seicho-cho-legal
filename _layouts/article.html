@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+<style>
+:root { --pink1:#F7A9BF; --pink2:#E9799A; --ink:#3D3437; --bg:#FFF6F8; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.8; }
+.topbar { background:linear-gradient(135deg,var(--pink1),var(--pink2)); padding:8px 16px; }
+.topbar a { display:inline-flex; align-items:center; gap:8px; color:#fff; text-decoration:none; font-weight:bold; font-size:14px; }
+.topbar img { width:28px; height:28px; border-radius:50%; border:2px solid rgba(255,255,255,.8); }
+main { max-width:720px; margin:0 auto; padding:24px 16px 48px; }
+.card { background:#fff; border-radius:20px; padding:20px; box-shadow:0 4px 16px rgba(233,121,154,.15); }
+.card h1 { font-size:24px; margin:0 0 16px; padding-bottom:8px; border-bottom:3px solid var(--pink1); }
+.card h2 { font-size:19px; margin:32px 0 12px; padding-bottom:6px; border-bottom:2px solid var(--pink1); }
+.card table { display:block; overflow-x:auto; width:100%; border-collapse:collapse; }
+.card th, .card td { border:1px solid #F0D5DC; padding:6px 10px; }
+.card th { background:#FFEAF0; }
+.card a { color:#C94A74; }
+.card a[href*="apps.apple.com"] { display:inline-block; background:linear-gradient(135deg,var(--pink1),var(--pink2)); color:#fff; text-decoration:none; font-weight:bold; padding:12px 28px; border-radius:999px; }
+.card svg { max-width:100%; height:auto; }
+.caution { font-size:13px; }
+</style>
+{% if site.ga4_id %}
+<!-- GA4：閲覧数とストアへのボタン押下を数える（_config.yml の ga4_id が空なら出力しない） -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','{{ site.ga4_id }}');
+</script>
+{% endif %}
+</head>
+<body>
+<div class="topbar"><a href="{{ '/apps.html' | relative_url }}"><img src="{{ '/assets/usagi.png' | relative_url }}" alt="">すくすく帳シリーズ</a></div>
+<main>
+<article class="card">
+{{ content }}
+</article>
+{% if site.ga4_id %}<p class="caution">※このページは、閲覧数を知るためにGoogleアナリティクスを使っています。アプリ本体には解析の仕組みは入っていません。</p>{% endif %}
+</main>
+</body>
+</html>

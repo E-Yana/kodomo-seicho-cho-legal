@@ -24,9 +24,15 @@ image: /assets/og-apps.png
 </section>
 </div>
 <h2 class="sec">読みもの</h2>
+<style>.rd-h { display:flex; align-items:center; gap:8px; font-size:16px; margin:16px 0 4px; } .rd-h img { width:28px; height:28px; border-radius:7px; }</style>
+<h3 class="rd-h"><img src="assets/icon-seicho.png" alt="">成長帳</h3>
 <ul>
 <li><a href="heikin-shincho-akachan.html">赤ちゃんの身長・体重の目安（0〜6歳・男女別）</a></li>
 <li><a href="heikin-shincho.html">子どもの平均身長（5〜17歳・男女別）</a></li>
+</ul>
+<h3 class="rd-h"><img src="assets/icon-narai.png" alt="">習いごと帳</h3>
+<ul>
+<li><a href="naraigoto-hiyou.html">子どもの習い事、みんなはいくら？（年額と月額）</a></li>
 </ul>
 <p><a href="https://x.com/sukusuku_app">公式X（@sukusuku_app）</a></p>
 <hr>
