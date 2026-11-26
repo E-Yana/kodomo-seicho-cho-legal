@@ -31,4 +31,5 @@ image: /assets/og-apps.png
 <p><a href="https://x.com/sukusuku_app">公式X（@sukusuku_app）</a></p>
 <hr>
 <p class="caution">※成長帳は統計の見方を紹介するもので、診断や判定をするものではありません。</p>
+{% if site.ga4_id %}<p class="caution">※このページは、閲覧数を知るためにGoogleアナリティクスを使っています。アプリ本体には解析の仕組みは入っていません。</p>{% endif %}
 </main>

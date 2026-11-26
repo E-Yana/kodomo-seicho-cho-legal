@@ -27,6 +27,14 @@ hr { border:0; border-top:1px solid #F0D5DC; margin:28px 0 16px; }
 .caution { font-size:13px; }
 @media (min-width:768px) { .cards { display:grid; grid-template-columns:1fr 1fr; gap:20px; } .cards .card { margin:0; display:flex; flex-direction:column; } .cards .card p { flex:1; } .hero h1 { font-size:36px; } }
 </style>
+{% if site.ga4_id %}
+<!-- GA4：一覧ページの閲覧数とストアへのボタン押下を数える（_config.yml の ga4_id が空なら出力しない） -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','{{ site.ga4_id }}');
+</script>
+{% endif %}
 </head>
 <body>
 {{ content }}

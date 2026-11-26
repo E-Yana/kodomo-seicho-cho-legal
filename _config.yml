@@ -1,3 +1,5 @@
 title: すくすく成長帳
 lang: ja
 theme: jekyll-theme-primer
+# GA4の測定ID（G-で始まる）。空のままならタグは出ない
+ga4_id: ""
